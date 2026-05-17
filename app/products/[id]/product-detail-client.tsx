@@ -315,9 +315,11 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
                       <CreditCard className="h-4 w-4 mr-2" />
                       Purchase Now
                     </Button>
-                    <Button variant="outline" className="w-full border-border/50 hover:border-primary/50" size="lg">
-                      <MessageCircle className="h-4 w-4 mr-2" />
-                      Contact on Telegram
+                    <Button variant="outline" className="w-full border-border/50 hover:border-primary/50" size="lg" asChild>
+                      <Link href="https://t.me/Puri_Abhinav" target="_blank">
+                        <MessageCircle className="h-4 w-4 mr-2" />
+                        Contact on Telegram
+                      </Link>
                     </Button>
                   </div>
 
@@ -344,7 +346,7 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
                   Have questions before purchasing? Contact us directly.
                 </p>
                 <Button variant="ghost" size="sm" className="w-full text-primary hover:text-primary" asChild>
-                  <Link href="https://t.me/pythonxtrading" target="_blank">
+                  <Link href="https://t.me/Puri_Abhinav" target="_blank">
                     <MessageCircle className="h-4 w-4 mr-2" />
                     Chat on Telegram
                   </Link>
