@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Bot, Mail, MessageCircle, Github, Twitter } from "lucide-react";
+import { Bot, Mail, MessageCircle, Instagram, MessageSquare } from "lucide-react";
 
 export function Footer() {
   return (
@@ -28,23 +28,35 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-3">
               <Link
-                href="https://t.me/pythonxtrading"
+                href="https://t.me/Puri_Abhinav"
                 target="_blank"
                 className="h-9 w-9 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-secondary/80 transition-colors"
+                title="Telegram"
               >
                 <MessageCircle className="h-4 w-4" />
               </Link>
               <Link
-                href="mailto:support@pythonxtrading.com"
+                href="https://wa.me/918288800053"
+                target="_blank"
                 className="h-9 w-9 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-secondary/80 transition-colors"
+                title="WhatsApp"
               >
-                <Mail className="h-4 w-4" />
+                <MessageSquare className="h-4 w-4" />
               </Link>
               <Link
-                href="#"
+                href="https://instagram.com/abhinavpuri31"
+                target="_blank"
                 className="h-9 w-9 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-secondary/80 transition-colors"
+                title="Instagram"
               >
-                <Twitter className="h-4 w-4" />
+                <Instagram className="h-4 w-4" />
+              </Link>
+              <Link
+                href="mailto:abhinavpuri31@gmail.com"
+                className="h-9 w-9 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-secondary/80 transition-colors"
+                title="Email"
+              >
+                <Mail className="h-4 w-4" />
               </Link>
             </div>
           </div>
@@ -81,23 +93,23 @@ export function Footer() {
             <h4 className="font-semibold text-foreground mb-4">Support</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Documentation
-                </Link>
-              </li>
-              <li>
-                <Link href="https://t.me/pythonxtrading" target="_blank" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link href="https://t.me/Puri_Abhinav" target="_blank" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Telegram Support
                 </Link>
               </li>
               <li>
-                <Link href="mailto:support@pythonxtrading.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                <Link href="https://wa.me/918288800053" target="_blank" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  WhatsApp Support
+                </Link>
+              </li>
+              <li>
+                <Link href="mailto:abhinavpuri31@gmail.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   Email Support
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Refund Policy
+                <Link href="https://instagram.com/abhinavpuri31" target="_blank" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Instagram
                 </Link>
               </li>
             </ul>
