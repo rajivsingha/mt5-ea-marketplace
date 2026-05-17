@@ -63,7 +63,7 @@ export function Header() {
             className="text-muted-foreground hover:text-primary"
             asChild
           >
-            <Link href="https://t.me/pythonxtrading" target="_blank">
+            <Link href="https://t.me/Puri_Abhinav" target="_blank">
               <MessageCircle className="h-4 w-4 mr-1" />
               Telegram
             </Link>
